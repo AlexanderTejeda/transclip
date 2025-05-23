@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const transcribeRoutes = require('./routes/transcribe');
 
-
 const app = express();
 app.use(cors());
 app.use(express.json());
